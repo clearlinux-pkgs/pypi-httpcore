@@ -1,5 +1,5 @@
 PKG_NAME := pypi-httpcore
-URL = https://files.pythonhosted.org/packages/2f/3c/b9092a4ba037721d60124f611ea9b0a9020e5e9794bc980db83bc50057cb/httpcore-0.16.0.tar.gz
+URL = https://files.pythonhosted.org/packages/f9/1a/a2652d94e901308c33b9f17c329b0d327da73b30678a6618d4256a3ac2ae/httpcore-0.16.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
