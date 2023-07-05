@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-httpcore
-Version  : 0.17.2
-Release  : 55
-URL      : https://files.pythonhosted.org/packages/b3/ad/7002a6f8e6ce0a246c991e00ba79b26ad06d307421a160214df24de5651f/httpcore-0.17.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/b3/ad/7002a6f8e6ce0a246c991e00ba79b26ad06d307421a160214df24de5651f/httpcore-0.17.2.tar.gz
+Version  : 0.17.3
+Release  : 56
+URL      : https://files.pythonhosted.org/packages/63/ad/c98ecdbfe04417e71e143bf2f2fb29128e4787d78d1cedba21bd250c7e7a/httpcore-0.17.3.tar.gz
+Source0  : https://files.pythonhosted.org/packages/63/ad/c98ecdbfe04417e71e143bf2f2fb29128e4787d78d1cedba21bd250c7e7a/httpcore-0.17.3.tar.gz
 Summary  : A minimal low-level HTTP client.
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -60,10 +60,10 @@ python3 components for the pypi-httpcore package.
 
 
 %prep
-%setup -q -n httpcore-0.17.2
-cd %{_builddir}/httpcore-0.17.2
+%setup -q -n httpcore-0.17.3
+cd %{_builddir}/httpcore-0.17.3
 pushd ..
-cp -a httpcore-0.17.2 buildavx2
+cp -a httpcore-0.17.3 buildavx2
 popd
 
 %build
@@ -71,7 +71,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1684867442
+export SOURCE_DATE_EPOCH=1688571491
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
