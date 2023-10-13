@@ -5,7 +5,7 @@
 #
 Name     : pypi-httpcore
 Version  : 1.0.0
-Release  : 58
+Release  : 59
 URL      : https://files.pythonhosted.org/packages/c9/c3/e6ca2cd3f218c847393287cd31739f841ba0fa3b90ace96db252b9e2013a/httpcore-1.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c9/c3/e6ca2cd3f218c847393287cd31739f841ba0fa3b90ace96db252b9e2013a/httpcore-1.0.0.tar.gz
 Summary  : A minimal low-level HTTP client.
